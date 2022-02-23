@@ -6,24 +6,20 @@
 - varianta open-source a MATLAB
 
 2. Intro GNU Octave
-- elementul de baza este **matricea** (chiar si constantele numerice sunt \
-vazute ca matrice 1x1)
-- Octave suporta si alte tipuri de date (structuri + siruri de caractere), \
-fiind un limbaj mai degraba procedural
-- Octave este limbaj interpretat -> comenzile se vor executa linie cu linie \
-(nu se face in prealabil verificare de sintaxa)
+- elementul de baza este **matricea** (chiar si constantele numerice sunt vazute ca matrice 1x1)
+- Octave suporta si alte tipuri de date (structuri + siruri de caractere), fiind un limbaj mai degraba procedural
+- Octave este limbaj interpretat -> comenzile se vor executa linie cu linie (nu se face in prealabil verificare de sintaxa)
 
 3. Comenzi suportate
-- Octave suporta majoritatea comenzilor Unix (in special cele de navigare \
-prin sistemul de fisiere = comenzi precum *ls*, *pwd*, *cd* etc)
+- Octave suporta majoritatea comenzilor Unix (in special cele de navigare prin sistemul de fisiere = comenzi precum *ls*, *pwd*, *cd* etc)
 - comanda ***help*** -> analogul comenzii ***man*** din Linux. Use it !
 - comenzi specifice: declarare de variabile, folosirea de operatii algebrice etc.
 
 4. Cum declaram variabile ?
 - prin simpla instantiere (Ex. a = 3)
-- by default, rezultatul comenzii (rezultatul numeric + variabila in care se stocheaza rezultatul) se va afisa in consola \
+- by default, rezultatul comenzii (rezultatul numeric + variabila in care se stocheaza rezultatul) se va afisa in consola 
 sub forma "a = ...". Putem opri acest comportament prin utilizarea ; la finalul comenzii.
-- daca rezultatul comenzii nu este stocat in mod explicit intr-o variabila, mediul de programare va pune acel rezultat in \
+- daca rezultatul comenzii nu este stocat in mod explicit intr-o variabila, mediul de programare va pune acel rezultat in 
 variabila de mediu *ans* (un fel de variabila globala)
 
 5. Comenzi utile
