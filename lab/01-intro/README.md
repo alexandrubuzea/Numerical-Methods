@@ -24,7 +24,7 @@ variabila de mediu *ans* (un fel de variabila globala)
 
 5. Comenzi utile
 - declararea de variabile (inclusiv sintaxa de tip [initial:step:final])
-- comenzi de determinare a dimensiunilor (length(), size())
+- functii de determinare a dimensiunilor (length(), size())
 - cum accesam elementul de pe pozitia i dintr-un vector ? v(i) (nu v[i] ca in C/C++)
 - indexarea elementelor incepe ***de la 1 !!***
 - operatorii +, *, /, ^ (operatii aritmetice). ^ reprezinta ridicarea la putere
@@ -35,7 +35,7 @@ variabila de mediu *ans* (un fel de variabila globala)
 - avem instructiuni de tip *if* si *for/while*.
 - putem scrie functii (o functie intr-un singur fisier .m, iar acel fisier sa aiba numele functiei)
 - comenzi succesive pot fi plasate in fisiere .m, numite scripturi.
-- avem functii de citire/scriere de tipul C, dar si comenzi specializate (*save* si *load*) pentru lucrul exclusiv cu fisiere .m
+- avem functii de citire/scriere de tipul C, dar si comenzi specializate (*save* si *load*) pentru lucrul exclusiv cu fisiere .mat
   
 7. **Extra: Vectorizari**
 - Octave lucreaza mult mai rapid cu matrice decat cu instructiuni de tip *for/while*, de aceea este bine sa folosim instructiuni vectorizate ori de cate ori este posibil.
