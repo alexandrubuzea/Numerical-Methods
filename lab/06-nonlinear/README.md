@@ -2,7 +2,7 @@
 
 0. Intro: de ce avem nevoie de asa ceva ?
 
-- Sistemle de ecuatii liniare sunt deosebit de intalnite in practica, iar in
+- Sistemele de ecuatii liniare sunt deosebit de intalnite in practica, iar in
 laboratoarele trecute am gasit metode foarte rapide pentru rezolvarea acestora.
 - In practica, de obicei fenomenele naturale nu sunt liniare, astfel ca este
 necesara elaborarea unor metode de rezolvare (aproximativa) a unor ecuatii

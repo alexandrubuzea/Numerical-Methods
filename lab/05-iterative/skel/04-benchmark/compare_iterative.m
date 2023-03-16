@@ -27,11 +27,11 @@ for i = 1:n
     for z=1:1
     switch (w)
       case 0
-        [_, _, steps(i, j)] = Jacobi_matrix_form(A, b, zeros(sizes(i), 1), err, max_steps);
+        [~, ~, steps(i, j)] = Jacobi_matrix_form(A, b, zeros(sizes(i), 1), err, max_steps);
       case 1
-        [_, _, steps(i, j)] = GS_matrix_form(A, b, zeros(sizes(i), 1), err, max_steps);
+        [~, ~, steps(i, j)] = GS_matrix_form(A, b, zeros(sizes(i), 1), err, max_steps);
       otherwise
-        [_, _, steps(i, j)] = SOR_matrix_form(A, b, zeros(sizes(i), 1), w, err, max_steps);
+        [~, ~, steps(i, j)] = SOR_matrix_form(A, b, zeros(sizes(i), 1), w, err, max_steps);
     endswitch
     endfor
   endfor
