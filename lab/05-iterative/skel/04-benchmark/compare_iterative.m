@@ -45,7 +45,7 @@ legend_info = {};
 
 for j=1:length(ws)
   w = ws(j);
-  plot(sizes, steps(:, j), "o", 'Markersize', 10); hold on;
+  plot(sizes, steps(:, j), "o", 'Markersize', 10, 'LineWidth', 2); hold on;
   str = "";
   switch(w)
     case 0
