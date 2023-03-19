@@ -44,14 +44,18 @@ for i=1:n
 endfor
 
 figure(1);
-title('Timpii de rulare pentru cele 3 metode de factorizare QR');
+xlabel('Dimensiunea matricei'); hold on;
+ylabel('Timpul de rulare (logaritmic'); hold on;
+title('Timpii de rulare pentru cele 3 metode de factorizare QR'); hold on;
 plot(sizes, log(time_gs), "o",'Markersize', 10, 'LineWidth', 2); hold on;
 plot(sizes, log(time_gv), "o",'Markersize', 10, 'LineWidth', 2); hold on;
 plot(sizes, log(time_hh), "o",'Markersize', 10, 'LineWidth', 2); hold on;
 legend('Gram-Schmidt', 'Givens', 'Householder');
 
 figure(2);
-title('Stabilitatea numerica pentru cele 3 metode de factorizare QR');
+xlabel('Dimensiunea matricei'); hold on;
+ylabel('norm(A - Q * R) (logaritmic)'); hold on;
+title('Stabilitatea numerica pentru cele 3 metode de factorizare QR'); hold on;
 plot(sizes, log(err_gs), "o",'Markersize', 10, 'LineWidth', 2); hold on;
 plot(sizes, log(err_gv), "o",'Markersize', 10, 'LineWidth', 2); hold on;
 plot(sizes, log(err_hh), "o",'Markersize', 10, 'LineWidth', 2); hold on;

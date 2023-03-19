@@ -43,7 +43,9 @@ for i = 1:n
 endfor
 
 figure(1);
-title('Numar de pasi pentru A pozitiv definita');
+title('Numar de pasi pentru A pozitiv definita'); hold on;
+xlabel('Dimensiunea matricei de lucru'); hold on;
+ylabel('Numarul de pasi efectuat'); hold on;
 axis([0, 550, 0, 220]);
 
 plot(sizes, results_jacobi, "o",'Markersize', 10, 'LineWidth', 2); hold on;

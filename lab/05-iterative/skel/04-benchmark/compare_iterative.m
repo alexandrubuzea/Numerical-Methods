@@ -38,7 +38,9 @@ for i = 1:n
 endfor
 
 figure(1);
-title('Numar de pasi in functie de metoda');
+title('Numar de pasi in functie de metoda'); hold on;
+xlabel('Dimensiunea matricei de lucru'); hold on;
+ylabel('Numarul de pasi efectuati'); hold on;
 axis([0, 550, 0, 220]);
 
 legend_info = {};
