@@ -11,7 +11,7 @@ endfor
 
 err = 1e-10;
 
-ws = [0, 1, 0.3, 0.8, 1.1, 1.9];
+ws = [0, 1, 0.3, 0.8, 1.1, 1.5, 1.9];
 
 steps = zeros(n, length(ws));
 max_steps = 200;
