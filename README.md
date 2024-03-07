@@ -1,5 +1,5 @@
 # Materiale pentru laboratorul de Metode Numerice
-### Copyright 2023 Buzea Alexandru-Mihai-Iulian
+### Copyright 2024 Buzea Alexandru-Mihai-Iulian
 # Contact: alexandrubuzea2001@gmail.com
 
 Acest repository conține:

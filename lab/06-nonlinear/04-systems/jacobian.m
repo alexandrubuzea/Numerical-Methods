@@ -1,5 +1,5 @@
 function [J] = jacobian(F_handles, x0, h)
-  % TODO: Calculati o aproximatie pentru matricea jacobiana
+  % Calculam o aproximatie pentru matricea jacobiana
   % in punctul x0, avand la dispozitie un array (cells) de n
   % functii si punctul x0 in care se calculeaza aproximatia
   % pentru jacobian
@@ -19,6 +19,17 @@ function [J] = jacobian(F_handles, x0, h)
   % se face prin F_handles{i}, nu F_handles(i) cum suntem
   % obisnuiti
  
-  % TODO: Jacobian
- 
+  n = length(F_handles);
+  J = zeros(n, n);
+
+  for i = 1:n
+    for j = 1:n
+      left = x0;
+      left(j) = x0(j) - h;
+      right = x0;
+      right(j) = x0(j) + h;
+
+      J(i, j) = (F_handles{i}(right) - F_handles{i}(left)) / (2 * h);      
+    endfor
+  endfor
 endfunction

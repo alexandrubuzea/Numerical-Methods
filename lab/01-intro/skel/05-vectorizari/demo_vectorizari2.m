@@ -2,7 +2,7 @@ clc; close all; clear
 
 % de asemenea, functiile din Octave sunt implementate vectorizat
 
-n = 2 * 1e5;
+n = 1e6;
 x = linspace(0, 2 * pi, n);
 
 tic;
